@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "sb-baby-mobile-app",
+    "slug": "sb-baby-mobile-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "sb-baby-mobile-app"
+}
