@@ -63,7 +63,7 @@ export default function CategoriesList({ navigation, route }) {
                   key={index}
                   data={data}
                   onPressItem={(_product) =>
-                    navigation.navigate("ItemDetail", { product: _product })
+                    navigation.navigate("PorductDetail", { product: _product })
                   }
                 />
               );

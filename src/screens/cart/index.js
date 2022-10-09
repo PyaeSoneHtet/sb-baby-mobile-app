@@ -33,7 +33,7 @@ function Cart({ navigation, cart, clearProduct }) {
       clearProduct();
       setIsOpenedSuccessModal(true);
     } catch (error) {
-      console.log(error);
+      console.log("Failed to check out product -",error);
     }
   };
   return (

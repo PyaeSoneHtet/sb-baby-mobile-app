@@ -6,7 +6,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 import BottomTabNavigators from "./BottomTabNavigators";
 
-import { CategoriesListScreen, ItemDetailScreen } from "screens";
+import { CategoriesListScreen, PorductDetailScreen } from "screens";
 import { Feather } from "@expo/vector-icons";
 
 const Stack = createStackNavigator();
@@ -48,8 +48,8 @@ function RootNavigator(props) {
           }}
         />
         <Stack.Screen
-          name="ItemDetail"
-          component={ItemDetailScreen}
+          name="PorductDetail"
+          component={PorductDetailScreen}
           options={{
             headerShown: true,
             headerTitleAlign: "center",

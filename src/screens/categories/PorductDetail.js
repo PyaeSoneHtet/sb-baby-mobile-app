@@ -16,7 +16,7 @@ import { Entypo } from "@expo/vector-icons";
 import { Colors } from "styles";
 import ProductApi from "api/Product";
 
-function ItemDetail({ navigation, route, cart, addNewProduct }) {
+function PorductDetail({ navigation, route, cart, addNewProduct }) {
   const [product, setProduct] = useState({});
   const _product = route.params.product;
 
@@ -177,7 +177,7 @@ const mapDispatchToProps = (dispatch) =>
     },
     dispatch
   );
-export default connect(mapStateToProps, mapDispatchToProps)(ItemDetail);
+export default connect(mapStateToProps, mapDispatchToProps)(PorductDetail);
 
 const styles = StyleSheet.create({
   imageWrapper: {
